@@ -185,11 +185,13 @@
                   <Component id="txt_telefono" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="lb_fn" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="txt_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="lb_nit" alignment="1" max="32767" attributes="0"/>
-                  <Component id="txt_nit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lb_fn" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="txt_fn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_nit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -200,7 +202,6 @@
               </Group>
               <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
               <Component id="jLabel4" min="-2" pref="19" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="txt_placa" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -215,13 +216,15 @@
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                  <Component id="txt_motor" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lb_cilindros" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="txt_cilindros" alignment="1" min="-2" pref="21" max="-2" attributes="0"/>
-                  <Component id="txt_marca" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                  <Component id="lb_marca" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="txt_motor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lb_cilindros" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="txt_marca" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="lb_marca" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
